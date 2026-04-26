@@ -1,0 +1,33 @@
+name: cw2_slam
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python=3.10
+
+  # Core scientific
+  - numpy
+  - scipy
+  - matplotlib
+
+  # Computer vision
+  - opencv
+
+  # RealSense camera SDK
+  - pyrealsense2
+
+  # Visualization & UI
+  - pygame
+
+  # Machine learning utilities (for ICP nearest neighbors)
+  - scikit-learn
+
+  # YAML support (calibration files)
+  - pyyaml
+
+  # Pip-only packages
+  - pip:
+    - rplidar-roboticia    # RP-Lidar driver
+    - evo                  # Trajectory evaluation tool (EVO)
+    - open3d               # Point cloud processing & visualization
