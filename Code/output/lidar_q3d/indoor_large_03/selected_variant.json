@@ -1,0 +1,18 @@
+{
+  "sequence": "indoor_large_03",
+  "label": "Marshgate large-classroom",
+  "selected_variant": "anchor_only",
+  "selection_reason": "anchor_only was selected because it was within 0.02 m of the best closure result and had the lowest deformation score, favoring smaller and smoother keyframe corrections.",
+  "variant_count_evaluated": 3,
+  "loop_edge_ids_used": [
+    6
+  ],
+  "chosen_metrics": {
+    "closure_error_before_m": 2.443336204081776,
+    "closure_error_after_m": 0.8975372920417111,
+    "closure_error_improvement_m": 1.5457989120400648,
+    "total_distance_change_abs_m": 0.002040104276140653,
+    "loop_edge_count": 1,
+    "deformation_score": 2.8901502676473254
+  }
+}

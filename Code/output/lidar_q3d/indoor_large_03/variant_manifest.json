@@ -1,0 +1,263 @@
+{
+  "sequence": "indoor_large_03",
+  "label": "Marshgate large-classroom",
+  "config": {
+    "max_range_mm": 12000.0,
+    "beam_step": 2,
+    "voxel_size_m": 0.05,
+    "scan_stride": 3,
+    "occupancy_cell_size_m": 0.05,
+    "occupancy_padding_m": 2.0,
+    "icp_max_iter": 20,
+    "correspondence_thresh_m": 0.5,
+    "keyframe_dist_thresh_m": 0.2,
+    "keyframe_angle_thresh_rad": 0.2,
+    "local_map_size": 20
+  },
+  "candidate_pool_count": 7,
+  "eligible_candidate_count": 4,
+  "pool_metadata": {
+    "keyframe_count": 184,
+    "min_keyframe_gap": 20,
+    "long_baseline_gap": 46,
+    "selection_rules": {
+      "touches_start_fraction": 0.2,
+      "touches_end_fraction": 0.7,
+      "non_overlap_window": 15
+    },
+    "local_thresholds": {
+      "score": 0.4,
+      "translation_correction_m": 1.0,
+      "rotation_correction_rad": 0.45
+    },
+    "anchor_thresholds": {
+      "score": 0.5,
+      "translation_correction_m": 1.2,
+      "rotation_correction_rad": 0.6
+    }
+  },
+  "variants": [
+    {
+      "variant_name": "odom_only",
+      "loop_edge_ids": [],
+      "loop_edge_count": 0,
+      "odometry_only": true,
+      "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/indoor_large_03/variants/odom_only"
+    },
+    {
+      "variant_name": "anchor_only",
+      "loop_edge_ids": [
+        6
+      ],
+      "loop_edge_count": 1,
+      "odometry_only": false,
+      "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/indoor_large_03/variants/anchor_only"
+    },
+    {
+      "variant_name": "anchor_plus_support",
+      "loop_edge_ids": [
+        6,
+        1
+      ],
+      "loop_edge_count": 2,
+      "odometry_only": false,
+      "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/indoor_large_03/variants/anchor_plus_support"
+    }
+  ],
+  "candidates": [
+    {
+      "accepted_loop_id": 6,
+      "branch_type": "anchor",
+      "source_keyframe_id": 183,
+      "target_keyframe_id": 7,
+      "source_scan_index": 1215,
+      "target_scan_index": 60,
+      "score": 0.9744197120759704,
+      "inlier_ratio": 1.0,
+      "translation_correction_m": 0.13396061394917255,
+      "rotation_correction_rad": 0.026570884144802267,
+      "descriptor_error": 0.013583912037037042,
+      "descriptor_shift_rad": 0.0,
+      "source_fraction": 1.0,
+      "target_fraction": 0.03825136612021858,
+      "keyframe_gap": 176,
+      "path_gap_m": 49.620366502642554,
+      "touches_start": true,
+      "touches_end": true,
+      "is_long_baseline": true,
+      "anchor_rank": 1.466769438851927,
+      "eligible": true,
+      "rejection_reasons": [],
+      "used_in_variants": [
+        "anchor_only",
+        "anchor_plus_support"
+      ],
+      "selection_note": "exported_to_variants"
+    },
+    {
+      "accepted_loop_id": 3,
+      "branch_type": "anchor",
+      "source_keyframe_id": 139,
+      "target_keyframe_id": 16,
+      "source_scan_index": 936,
+      "target_scan_index": 129,
+      "score": 0.6024100818453922,
+      "inlier_ratio": 0.7006369426751592,
+      "translation_correction_m": 0.2891910593580007,
+      "rotation_correction_rad": 0.05959990677908805,
+      "descriptor_error": 0.05462181712962962,
+      "descriptor_shift_rad": 0.0,
+      "source_fraction": 0.7595628415300546,
+      "target_fraction": 0.08743169398907104,
+      "keyframe_gap": 123,
+      "path_gap_m": 34.50036915920129,
+      "touches_start": true,
+      "touches_end": true,
+      "is_long_baseline": true,
+      "anchor_rank": 1.036836311353589,
+      "eligible": true,
+      "rejection_reasons": [],
+      "used_in_variants": [],
+      "selection_note": "eligible_but_not_selected_by_variant_builder"
+    },
+    {
+      "accepted_loop_id": 1,
+      "branch_type": "anchor",
+      "source_keyframe_id": 133,
+      "target_keyframe_id": 35,
+      "source_scan_index": 897,
+      "target_scan_index": 252,
+      "score": 0.5872977964291598,
+      "inlier_ratio": 0.7105263157894737,
+      "translation_correction_m": 0.24913336808270337,
+      "rotation_correction_rad": 0.5990986732881578,
+      "descriptor_error": 0.0987578125,
+      "descriptor_shift_rad": 0.0,
+      "source_fraction": 0.726775956284153,
+      "target_fraction": 0.1912568306010929,
+      "keyframe_gap": 98,
+      "path_gap_m": 27.810950545494315,
+      "touches_start": true,
+      "touches_end": true,
+      "is_long_baseline": true,
+      "anchor_rank": 0.9944016215657718,
+      "eligible": true,
+      "rejection_reasons": [],
+      "used_in_variants": [
+        "anchor_plus_support"
+      ],
+      "selection_note": "exported_to_variants"
+    },
+    {
+      "accepted_loop_id": 2,
+      "branch_type": "anchor",
+      "source_keyframe_id": 134,
+      "target_keyframe_id": 8,
+      "source_scan_index": 903,
+      "target_scan_index": 69,
+      "score": 0.5559037904187123,
+      "inlier_ratio": 0.7012987012987013,
+      "translation_correction_m": 0.39795304855970687,
+      "rotation_correction_rad": 0.15772980034046832,
+      "descriptor_error": 0.10337905092592593,
+      "descriptor_shift_rad": 0.0,
+      "source_fraction": 0.73224043715847,
+      "target_fraction": 0.04371584699453552,
+      "keyframe_gap": 126,
+      "path_gap_m": 35.171634440301936,
+      "touches_start": true,
+      "touches_end": true,
+      "is_long_baseline": true,
+      "anchor_rank": 0.9936087084514992,
+      "eligible": true,
+      "rejection_reasons": [],
+      "used_in_variants": [],
+      "selection_note": "eligible_but_not_selected_by_variant_builder"
+    },
+    {
+      "accepted_loop_id": 0,
+      "branch_type": "local",
+      "source_keyframe_id": 105,
+      "target_keyframe_id": 12,
+      "source_scan_index": 729,
+      "target_scan_index": 99,
+      "score": 0.5542893947017212,
+      "inlier_ratio": 0.7891156462585034,
+      "translation_correction_m": 1.4359116129581173,
+      "rotation_correction_rad": 0.4345634465411765,
+      "descriptor_error": null,
+      "descriptor_shift_rad": null,
+      "source_fraction": 0.5737704918032787,
+      "target_fraction": 0.06557377049180328,
+      "keyframe_gap": 93,
+      "path_gap_m": 26.355795604608357,
+      "touches_start": true,
+      "touches_end": false,
+      "is_long_baseline": true,
+      "anchor_rank": 0.9559287389640163,
+      "eligible": false,
+      "rejection_reasons": [
+        "above_translation_correction"
+      ],
+      "used_in_variants": [],
+      "selection_note": "above_translation_correction"
+    },
+    {
+      "accepted_loop_id": 5,
+      "branch_type": "local",
+      "source_keyframe_id": 182,
+      "target_keyframe_id": 87,
+      "source_scan_index": 1197,
+      "target_scan_index": 579,
+      "score": 0.29953059912985047,
+      "inlier_ratio": 0.5763888888888888,
+      "translation_correction_m": 1.532279020574964,
+      "rotation_correction_rad": 0.2798641945924891,
+      "descriptor_error": null,
+      "descriptor_shift_rad": null,
+      "source_fraction": 0.994535519125683,
+      "target_fraction": 0.47540983606557374,
+      "keyframe_gap": 95,
+      "path_gap_m": 27.334001138776475,
+      "touches_start": false,
+      "touches_end": true,
+      "is_long_baseline": true,
+      "anchor_rank": 0.7033557357418724,
+      "eligible": false,
+      "rejection_reasons": [
+        "below_score",
+        "above_translation_correction"
+      ],
+      "used_in_variants": [],
+      "selection_note": "below_score; above_translation_correction"
+    },
+    {
+      "accepted_loop_id": 4,
+      "branch_type": "local",
+      "source_keyframe_id": 159,
+      "target_keyframe_id": 61,
+      "source_scan_index": 1053,
+      "target_scan_index": 426,
+      "score": 0.2743284790466574,
+      "inlier_ratio": 0.41139240506329117,
+      "translation_correction_m": 0.20381113334002568,
+      "rotation_correction_rad": 0.02011758095163982,
+      "descriptor_error": null,
+      "descriptor_shift_rad": null,
+      "source_fraction": 0.8688524590163934,
+      "target_fraction": 0.3333333333333333,
+      "keyframe_gap": 98,
+      "path_gap_m": 27.756579006283143,
+      "touches_start": false,
+      "touches_end": true,
+      "is_long_baseline": true,
+      "anchor_rank": 0.6814323041832694,
+      "eligible": false,
+      "rejection_reasons": [
+        "below_score"
+      ],
+      "used_in_variants": [],
+      "selection_note": "below_score"
+    }
+  ]
+}

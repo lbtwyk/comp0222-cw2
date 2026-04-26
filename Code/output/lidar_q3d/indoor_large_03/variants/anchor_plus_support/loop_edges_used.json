@@ -1,0 +1,117 @@
+[
+  {
+    "accepted_loop_id": 6,
+    "from_keyframe_id": 7,
+    "to_keyframe_id": 183,
+    "from_row": 8,
+    "to_row": 184,
+    "measurement_xytheta": [
+      -0.028082564428097777,
+      0.025690903858298277,
+      0.026570884144802267
+    ],
+    "information": [
+      [
+        40.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        40.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        80.0
+      ]
+    ],
+    "score": 0.9744197120759704,
+    "mean_residual_m": 0.010855682321872222,
+    "inlier_ratio": 1.0,
+    "translation_correction_m": 0.13396061394917255,
+    "rotation_correction_rad": 0.026570884144802267,
+    "branch_type": "anchor",
+    "descriptor_error": 0.013583912037037042,
+    "descriptor_shift_rad": 0.0,
+    "source_keyframe_id": 183,
+    "target_keyframe_id": 7,
+    "source_scan_index": 1215,
+    "target_scan_index": 60,
+    "source_timestamp": 1773837455.285502,
+    "target_timestamp": 1773837364.536344,
+    "source_fraction": 1.0,
+    "target_fraction": 0.03825136612021858,
+    "keyframe_gap": 176,
+    "path_gap_m": 49.620366502642554,
+    "touches_start": true,
+    "touches_end": true,
+    "is_long_baseline": true,
+    "anchor_rank": 1.466769438851927,
+    "eligible": true,
+    "rejection_reasons": [],
+    "used_in_variants": [
+      "anchor_only",
+      "anchor_plus_support"
+    ],
+    "selection_note": "exported_to_variants"
+  },
+  {
+    "accepted_loop_id": 1,
+    "from_keyframe_id": 35,
+    "to_keyframe_id": 133,
+    "from_row": 36,
+    "to_row": 134,
+    "measurement_xytheta": [
+      0.12172024987954383,
+      0.5707154597911566,
+      0.5990986732881578
+    ],
+    "information": [
+      [
+        28.421052631578945,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        28.421052631578945,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        56.84210526315789
+      ]
+    ],
+    "score": 0.5872977964291598,
+    "mean_residual_m": 0.06836024888763555,
+    "inlier_ratio": 0.7105263157894737,
+    "translation_correction_m": 0.24913336808270337,
+    "rotation_correction_rad": 0.5990986732881578,
+    "branch_type": "anchor",
+    "descriptor_error": 0.0987578125,
+    "descriptor_shift_rad": 0.0,
+    "source_keyframe_id": 133,
+    "target_keyframe_id": 35,
+    "source_scan_index": 897,
+    "target_scan_index": 252,
+    "source_timestamp": 1773837430.31471,
+    "target_timestamp": 1773837379.651338,
+    "source_fraction": 0.726775956284153,
+    "target_fraction": 0.1912568306010929,
+    "keyframe_gap": 98,
+    "path_gap_m": 27.810950545494315,
+    "touches_start": true,
+    "touches_end": true,
+    "is_long_baseline": true,
+    "anchor_rank": 0.9944016215657718,
+    "eligible": true,
+    "rejection_reasons": [],
+    "used_in_variants": [
+      "anchor_plus_support"
+    ],
+    "selection_note": "exported_to_variants"
+  }
+]

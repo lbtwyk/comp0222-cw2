@@ -1,0 +1,31 @@
+{
+  "sequence": "indoor_large_03",
+  "label": "Marshgate large-classroom",
+  "variant_name": "anchor_plus_support",
+  "config": {
+    "max_range_mm": 12000.0,
+    "beam_step": 2,
+    "voxel_size_m": 0.05,
+    "scan_stride": 3,
+    "occupancy_cell_size_m": 0.05,
+    "occupancy_padding_m": 2.0,
+    "icp_max_iter": 20,
+    "correspondence_thresh_m": 0.5,
+    "keyframe_dist_thresh_m": 0.2,
+    "keyframe_angle_thresh_rad": 0.2,
+    "local_map_size": 20
+  },
+  "environment": "indoor",
+  "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/indoor_large_03/variants/anchor_plus_support",
+  "graph_input_path": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/indoor_large_03/variants/anchor_plus_support/graph_input.mat",
+  "keyframe_count": 184,
+  "processed_scan_count": 412,
+  "odometry_edge_count": 183,
+  "loop_edge_count": 2,
+  "odometry_only": false,
+  "loop_edge_ids": [
+    6,
+    1
+  ],
+  "q3c_source_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3c/indoor_large_03"
+}
