@@ -1,0 +1,28 @@
+{
+  "name": "indoor_large_02",
+  "environment": "indoor",
+  "description": "Marshgate pool",
+  "sensor": "RP-Lidar A2M12",
+  "port": "/dev/tty.usbserial-10",
+  "baud_rate": 256000,
+  "scan_count": 906,
+  "duration_seconds": 70.37,
+  "avg_scan_rate_hz": 12.87,
+  "loops_marked": 2,
+  "loop_markers": [
+    {
+      "scan_index": 523,
+      "timestamp": 1773836882.307606,
+      "elapsed_seconds": 41.676820039749146,
+      "loop_number": 1
+    },
+    {
+      "scan_index": 890,
+      "timestamp": 1773836910.798176,
+      "elapsed_seconds": 70.16739106178284,
+      "loop_number": 2
+    }
+  ],
+  "timestamp_start": 1773836841.6627,
+  "timestamp_end": 1773836912.034145
+}
