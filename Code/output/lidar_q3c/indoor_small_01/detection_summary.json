@@ -1,0 +1,85 @@
+{
+  "sequence": "indoor_small_01",
+  "label": "Marshgate small-room",
+  "sequence_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/data/lidar/indoor_small_01",
+  "source_metadata": {
+    "name": "indoor_small_01",
+    "environment": "indoor",
+    "description": "Marshgate small-room",
+    "sensor": "RP-Lidar A2M12",
+    "port": "/dev/tty.usbserial-120",
+    "baud_rate": 256000,
+    "scan_count": 659,
+    "duration_seconds": 60.64,
+    "avg_scan_rate_hz": 10.87,
+    "timestamp_start": 1774265766.515001,
+    "timestamp_end": 1774265827.152114
+  },
+  "config": {
+    "max_range_mm": 12000.0,
+    "beam_step": 3,
+    "voxel_size_m": 0.05,
+    "scan_stride": 2,
+    "occupancy_cell_size_m": 0.05,
+    "occupancy_padding_m": 2.0,
+    "icp_max_iter": 20,
+    "correspondence_thresh_m": 0.5,
+    "keyframe_dist_thresh_m": 0.2,
+    "keyframe_angle_thresh_rad": 0.2,
+    "local_map_size": 20
+  },
+  "detection_preprocess": {
+    "max_range_mm": 12000.0,
+    "beam_step": 1,
+    "max_range_m": 12.0
+  },
+  "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3c/indoor_small_01",
+  "processed_scan_count": 330,
+  "keyframe_count": 86,
+  "total_distance_m": 21.661,
+  "final_start_to_end_drift_m": 2.395,
+  "total_candidates_evaluated": 224,
+  "accepted_loops_before_dedup": 10,
+  "accepted_loops_after_dedup": 4,
+  "accepted_anchor_loops": 4,
+  "accepted_local_loops": 0,
+  "late_to_early_candidates_evaluated": 123,
+  "late_to_early_candidates_accepted": 4,
+  "accepted_loop_ids_for_q3d": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "marker_matches": [
+    {
+      "loop_number": 1,
+      "marker_timestamp": 1774265796.6055439,
+      "hit": false,
+      "matched_loop_id": null,
+      "time_delta_s": null,
+      "score": null,
+      "branch_type": null,
+      "source_keyframe_id": null,
+      "target_keyframe_id": null
+    },
+    {
+      "loop_number": 2,
+      "marker_timestamp": 1774265826.253092,
+      "hit": true,
+      "matched_loop_id": 3,
+      "time_delta_s": -1.099,
+      "score": 0.968903,
+      "branch_type": "anchor",
+      "source_keyframe_id": 85,
+      "target_keyframe_id": 2
+    }
+  ],
+  "marker_hits": 1,
+  "marker_misses": 1,
+  "extra_accepted_revisits": [
+    0,
+    1,
+    2
+  ]
+}

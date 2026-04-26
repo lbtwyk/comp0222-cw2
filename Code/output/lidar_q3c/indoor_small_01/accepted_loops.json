@@ -1,0 +1,134 @@
+[
+  {
+    "accepted_loop_id": 0,
+    "branch_type": "anchor",
+    "source_keyframe_id": 60,
+    "target_keyframe_id": 17,
+    "source_scan_index": 448,
+    "target_scan_index": 130,
+    "source_processed_index": 224,
+    "target_processed_index": 65,
+    "source_timestamp": 1774265807.891046,
+    "target_timestamp": 1774265778.563697,
+    "source_fraction": 0.7058823529411765,
+    "target_fraction": 0.2,
+    "keyframe_gap": 43,
+    "path_gap_m": 10.764378574108079,
+    "descriptor_error": 0.10145804398148149,
+    "descriptor_shift_rad": 0.0,
+    "relative_pose_init": [
+      0.07629045353277497,
+      -0.07698432708296665,
+      0.0
+    ],
+    "relative_pose_icp": [
+      -0.02912803121815854,
+      0.06612701525299598,
+      0.0016368969409628043
+    ],
+    "score": 0.9692526371163022,
+    "mean_residual_m": 0.012890841321619393,
+    "inlier_ratio": 1.0,
+    "translation_correction_m": 0.1777467671503026,
+    "rotation_correction_rad": 0.0016368969409628043
+  },
+  {
+    "accepted_loop_id": 1,
+    "branch_type": "anchor",
+    "source_keyframe_id": 67,
+    "target_keyframe_id": 3,
+    "source_scan_index": 494,
+    "target_scan_index": 28,
+    "source_processed_index": 247,
+    "target_processed_index": 14,
+    "source_timestamp": 1774265812.119461,
+    "target_timestamp": 1774265769.128131,
+    "source_fraction": 0.788235294117647,
+    "target_fraction": 0.03529411764705882,
+    "keyframe_gap": 64,
+    "path_gap_m": 15.412824093203486,
+    "descriptor_error": 0.16045688657407406,
+    "descriptor_shift_rad": 0.08726646259971647,
+    "relative_pose_init": [
+      -0.04728939371527785,
+      0.19721877927749343,
+      0.08726646259971647
+    ],
+    "relative_pose_icp": [
+      -0.20299871151177698,
+      0.2987329141941417,
+      0.09585815608611244
+    ],
+    "score": 0.7070883523533354,
+    "mean_residual_m": 0.08639429515678222,
+    "inlier_ratio": 0.8125,
+    "translation_correction_m": 0.1858776781556264,
+    "rotation_correction_rad": 0.008591693486395963
+  },
+  {
+    "accepted_loop_id": 2,
+    "branch_type": "anchor",
+    "source_keyframe_id": 76,
+    "target_keyframe_id": 12,
+    "source_scan_index": 554,
+    "target_scan_index": 96,
+    "source_processed_index": 277,
+    "target_processed_index": 48,
+    "source_timestamp": 1774265817.641761,
+    "target_timestamp": 1774265775.423431,
+    "source_fraction": 0.8941176470588236,
+    "target_fraction": 0.1411764705882353,
+    "keyframe_gap": 64,
+    "path_gap_m": 15.538568575549583,
+    "descriptor_error": 0.07181047453703704,
+    "descriptor_shift_rad": 0.0,
+    "relative_pose_init": [
+      0.19699248017787635,
+      0.53095832336769,
+      0.0
+    ],
+    "relative_pose_icp": [
+      0.06408216092043914,
+      0.18854158878535557,
+      -0.1973827205230817
+    ],
+    "score": 0.7108586466707216,
+    "mean_residual_m": 0.09691045739542169,
+    "inlier_ratio": 0.8543689320388349,
+    "translation_correction_m": 0.367306919465374,
+    "rotation_correction_rad": 0.1973827205230817
+  },
+  {
+    "accepted_loop_id": 3,
+    "branch_type": "anchor",
+    "source_keyframe_id": 85,
+    "target_keyframe_id": 2,
+    "source_scan_index": 636,
+    "target_scan_index": 20,
+    "source_processed_index": 318,
+    "target_processed_index": 10,
+    "source_timestamp": 1774265825.154462,
+    "target_timestamp": 1774265768.386976,
+    "source_fraction": 1.0,
+    "target_fraction": 0.023529411764705882,
+    "keyframe_gap": 83,
+    "path_gap_m": 21.008281696018905,
+    "descriptor_error": 0.07181336805555556,
+    "descriptor_shift_rad": 0.0,
+    "relative_pose_init": [
+      -0.04472360215760285,
+      0.12212754901222023,
+      0.0
+    ],
+    "relative_pose_icp": [
+      0.030655873197561766,
+      0.13658051711073999,
+      -0.05207610087332013
+    ],
+    "score": 0.9689034267476063,
+    "mean_residual_m": 0.02081751343010521,
+    "inlier_ratio": 1.0,
+    "translation_correction_m": 0.07675254778622466,
+    "rotation_correction_rad": 0.05207610087332013
+  }
+]
