@@ -1,0 +1,67 @@
+{
+  "sequence": "outdoor_02",
+  "label": "Building exterior",
+  "sequence_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/data/lidar/outdoor_02",
+  "source_metadata": {
+    "name": "outdoor_02",
+    "environment": "outdoor",
+    "description": "Building exterior",
+    "sensor": "RP-Lidar A2M12",
+    "port": "/dev/tty.usbserial-1120",
+    "baud_rate": 256000,
+    "scan_count": 4796,
+    "duration_seconds": 407.18,
+    "avg_scan_rate_hz": 11.78,
+    "loops_marked": 2,
+    "loop_markers": [
+      {
+        "scan_index": 2539,
+        "timestamp": 1774268309.2979178,
+        "elapsed_seconds": 219.14884781837463,
+        "loop_number": 1
+      },
+      {
+        "scan_index": 4788,
+        "timestamp": 1774268498.4137971,
+        "elapsed_seconds": 408.2647259235382,
+        "loop_number": 2
+      }
+    ],
+    "timestamp_start": 1774268091.893148,
+    "timestamp_end": 1774268499.076185
+  },
+  "config": {
+    "max_range_mm": 6000.0,
+    "beam_step": 1,
+    "voxel_size_m": 0.05,
+    "scan_stride": 3,
+    "occupancy_cell_size_m": 0.05,
+    "occupancy_padding_m": 2.0,
+    "icp_max_iter": 20,
+    "correspondence_thresh_m": 0.5,
+    "keyframe_dist_thresh_m": 0.2,
+    "keyframe_angle_thresh_rad": 0.2,
+    "local_map_size": 20
+  },
+  "raw_scan_count": 4796,
+  "processed_scan_count": 1599,
+  "keyframe_count": 307,
+  "runtime_seconds": 5.685,
+  "total_distance_m": 149.886,
+  "final_start_to_end_drift_m": 3.708,
+  "loop_marker_metrics": [
+    {
+      "loop_number": 1,
+      "requested_scan_index": 2539,
+      "matched_processed_scan_index": 2538,
+      "closure_error_m": 5.310783548068496
+    },
+    {
+      "loop_number": 2,
+      "requested_scan_index": 4788,
+      "matched_processed_scan_index": 4788,
+      "closure_error_m": 3.651063900256917
+    }
+  ],
+  "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3b/scan_rate/outdoor_02/scan_rate_1_3"
+}
