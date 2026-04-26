@@ -1,0 +1,67 @@
+{
+  "sequence": "indoor_large_03",
+  "label": "Marshgate large-classroom",
+  "sequence_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/data/lidar/indoor_large_03",
+  "source_metadata": {
+    "name": "indoor_large_03",
+    "environment": "indoor",
+    "description": "Marshgate large-classroom",
+    "sensor": "RP-Lidar A2M12",
+    "port": "/dev/tty.usbserial-10",
+    "baud_rate": 256000,
+    "scan_count": 1234,
+    "duration_seconds": 96.9,
+    "avg_scan_rate_hz": 12.73,
+    "loops_marked": 2,
+    "loop_markers": [
+      {
+        "scan_index": 652,
+        "timestamp": 1773837411.0826979,
+        "elapsed_seconds": 52.921730041503906,
+        "loop_number": 1
+      },
+      {
+        "scan_index": 1217,
+        "timestamp": 1773837455.367456,
+        "elapsed_seconds": 97.2064881324768,
+        "loop_number": 2
+      }
+    ],
+    "timestamp_start": 1773837359.7907772,
+    "timestamp_end": 1773837456.693815
+  },
+  "config": {
+    "max_range_mm": 6000.0,
+    "beam_step": 1,
+    "voxel_size_m": 0.05,
+    "scan_stride": 1,
+    "occupancy_cell_size_m": 0.05,
+    "occupancy_padding_m": 2.0,
+    "icp_max_iter": 20,
+    "correspondence_thresh_m": 0.5,
+    "keyframe_dist_thresh_m": 0.2,
+    "keyframe_angle_thresh_rad": 0.2,
+    "local_map_size": 20
+  },
+  "raw_scan_count": 1234,
+  "processed_scan_count": 1234,
+  "keyframe_count": 220,
+  "runtime_seconds": 3.755,
+  "total_distance_m": 52.32,
+  "final_start_to_end_drift_m": 0.886,
+  "loop_marker_metrics": [
+    {
+      "loop_number": 1,
+      "requested_scan_index": 652,
+      "matched_processed_scan_index": 652,
+      "closure_error_m": 1.2335403755623127
+    },
+    {
+      "loop_number": 2,
+      "requested_scan_index": 1217,
+      "matched_processed_scan_index": 1217,
+      "closure_error_m": 0.9046961035115529
+    }
+  ],
+  "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_step1/indoor_large_03/mr6000_bs1_vs0p05_ss1"
+}
