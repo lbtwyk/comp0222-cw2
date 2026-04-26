@@ -1,0 +1,4 @@
+sequence,label,processed_scan_count,keyframe_count,total_candidates_evaluated,accepted_loops_before_dedup,accepted_loops_after_dedup,accepted_anchor_loops,accepted_local_loops,late_to_early_candidates_evaluated,late_to_early_candidates_accepted,marker_hits,marker_misses,extra_accepted_revisits,final_start_to_end_drift_m,output_dir
+indoor_large_03,Marshgate large-classroom,412,184,725,44,7,4,3,275,4,2,0,5,2.443,/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3c/indoor_large_03
+indoor_small_01,Marshgate small-room,330,86,224,10,4,4,0,123,4,1,1,3,2.395,/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3c/indoor_small_01
+outdoor_02,Building exterior,2398,355,1193,63,12,6,6,535,6,0,2,12,2.82,/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3c/outdoor_02

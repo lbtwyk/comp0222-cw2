@@ -1,0 +1,4 @@
+sequence,label,selected_variant,processed_scan_count,keyframe_count,loop_edge_count,odometry_only,closure_error_before_m,closure_error_after_m,closure_error_improvement_m,output_dir
+indoor_large_03,Marshgate large-classroom,anchor_only,412,184,1,False,2.443336,0.897537,1.545799,/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/indoor_large_03
+indoor_small_01,Marshgate small-room,anchor_only,330,86,1,False,2.394735,0.546333,1.848402,/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/indoor_small_01
+outdoor_02,Building exterior,anchor_plus_support,2398,355,2,False,2.820066,0.81746,2.002607,/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/outdoor_02
