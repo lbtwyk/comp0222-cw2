@@ -1,0 +1,102 @@
+{
+  "sequence": "outdoor_02",
+  "label": "Building exterior",
+  "sequence_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/data/lidar/outdoor_02",
+  "source_metadata": {
+    "name": "outdoor_02",
+    "environment": "outdoor",
+    "description": "Building exterior",
+    "sensor": "RP-Lidar A2M12",
+    "port": "/dev/tty.usbserial-1120",
+    "baud_rate": 256000,
+    "scan_count": 4796,
+    "duration_seconds": 407.18,
+    "avg_scan_rate_hz": 11.78,
+    "timestamp_start": 1774268091.893148,
+    "timestamp_end": 1774268499.076185
+  },
+  "config": {
+    "max_range_mm": 6000.0,
+    "beam_step": 1,
+    "voxel_size_m": 0.05,
+    "scan_stride": 2,
+    "occupancy_cell_size_m": 0.05,
+    "occupancy_padding_m": 2.0,
+    "icp_max_iter": 20,
+    "correspondence_thresh_m": 0.5,
+    "keyframe_dist_thresh_m": 0.2,
+    "keyframe_angle_thresh_rad": 0.2,
+    "local_map_size": 20
+  },
+  "detection_preprocess": {
+    "max_range_mm": 6000.0,
+    "beam_step": 1,
+    "max_range_m": 6.0
+  },
+  "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3c/outdoor_02",
+  "processed_scan_count": 2398,
+  "keyframe_count": 355,
+  "total_distance_m": 173.291,
+  "final_start_to_end_drift_m": 2.82,
+  "total_candidates_evaluated": 1193,
+  "accepted_loops_before_dedup": 63,
+  "accepted_loops_after_dedup": 12,
+  "accepted_anchor_loops": 6,
+  "accepted_local_loops": 6,
+  "late_to_early_candidates_evaluated": 535,
+  "late_to_early_candidates_accepted": 6,
+  "accepted_loop_ids_for_q3d": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "marker_matches": [
+    {
+      "loop_number": 1,
+      "marker_timestamp": 1774268309.2979178,
+      "hit": false,
+      "matched_loop_id": null,
+      "time_delta_s": null,
+      "score": null,
+      "branch_type": null,
+      "source_keyframe_id": null,
+      "target_keyframe_id": null
+    },
+    {
+      "loop_number": 2,
+      "marker_timestamp": 1774268498.4137971,
+      "hit": false,
+      "matched_loop_id": null,
+      "time_delta_s": null,
+      "score": null,
+      "branch_type": null,
+      "source_keyframe_id": null,
+      "target_keyframe_id": null
+    }
+  ],
+  "marker_hits": 0,
+  "marker_misses": 2,
+  "extra_accepted_revisits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ]
+}
