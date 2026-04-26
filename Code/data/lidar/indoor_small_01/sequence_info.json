@@ -1,0 +1,28 @@
+{
+  "name": "indoor_small_01",
+  "environment": "indoor",
+  "description": "Marshgate small-room",
+  "sensor": "RP-Lidar A2M12",
+  "port": "/dev/tty.usbserial-120",
+  "baud_rate": 256000,
+  "scan_count": 659,
+  "duration_seconds": 60.64,
+  "avg_scan_rate_hz": 10.87,
+  "loops_marked": 2,
+  "loop_markers": [
+    {
+      "scan_index": 326,
+      "timestamp": 1774265796.6055439,
+      "elapsed_seconds": 31.597054958343506,
+      "loop_number": 1
+    },
+    {
+      "scan_index": 649,
+      "timestamp": 1774265826.253092,
+      "elapsed_seconds": 61.24460196495056,
+      "loop_number": 2
+    }
+  ],
+  "timestamp_start": 1774265766.515001,
+  "timestamp_end": 1774265827.152114
+}
