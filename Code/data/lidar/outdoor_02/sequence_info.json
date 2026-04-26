@@ -1,0 +1,28 @@
+{
+  "name": "outdoor_02",
+  "environment": "outdoor",
+  "description": "Building exterior",
+  "sensor": "RP-Lidar A2M12",
+  "port": "/dev/tty.usbserial-1120",
+  "baud_rate": 256000,
+  "scan_count": 4796,
+  "duration_seconds": 407.18,
+  "avg_scan_rate_hz": 11.78,
+  "loops_marked": 2,
+  "loop_markers": [
+    {
+      "scan_index": 2539,
+      "timestamp": 1774268309.2979178,
+      "elapsed_seconds": 219.14884781837463,
+      "loop_number": 1
+    },
+    {
+      "scan_index": 4788,
+      "timestamp": 1774268498.4137971,
+      "elapsed_seconds": 408.2647259235382,
+      "loop_number": 2
+    }
+  ],
+  "timestamp_start": 1774268091.893148,
+  "timestamp_end": 1774268499.076185
+}
