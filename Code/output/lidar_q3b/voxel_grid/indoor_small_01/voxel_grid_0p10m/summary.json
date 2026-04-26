@@ -1,0 +1,67 @@
+{
+  "sequence": "indoor_small_01",
+  "label": "Marshgate small-room",
+  "sequence_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/data/lidar/indoor_small_01",
+  "source_metadata": {
+    "name": "indoor_small_01",
+    "environment": "indoor",
+    "description": "Marshgate small-room",
+    "sensor": "RP-Lidar A2M12",
+    "port": "/dev/tty.usbserial-120",
+    "baud_rate": 256000,
+    "scan_count": 659,
+    "duration_seconds": 60.64,
+    "avg_scan_rate_hz": 10.87,
+    "loops_marked": 2,
+    "loop_markers": [
+      {
+        "scan_index": 326,
+        "timestamp": 1774265796.6055439,
+        "elapsed_seconds": 31.597054958343506,
+        "loop_number": 1
+      },
+      {
+        "scan_index": 649,
+        "timestamp": 1774265826.253092,
+        "elapsed_seconds": 61.24460196495056,
+        "loop_number": 2
+      }
+    ],
+    "timestamp_start": 1774265766.515001,
+    "timestamp_end": 1774265827.152114
+  },
+  "config": {
+    "max_range_mm": 6000.0,
+    "beam_step": 1,
+    "voxel_size_m": 0.1,
+    "scan_stride": 1,
+    "occupancy_cell_size_m": 0.05,
+    "occupancy_padding_m": 2.0,
+    "icp_max_iter": 20,
+    "correspondence_thresh_m": 0.5,
+    "keyframe_dist_thresh_m": 0.2,
+    "keyframe_angle_thresh_rad": 0.2,
+    "local_map_size": 20
+  },
+  "raw_scan_count": 659,
+  "processed_scan_count": 659,
+  "keyframe_count": 97,
+  "runtime_seconds": 2.218,
+  "total_distance_m": 21.477,
+  "final_start_to_end_drift_m": 3.674,
+  "loop_marker_metrics": [
+    {
+      "loop_number": 1,
+      "requested_scan_index": 326,
+      "matched_processed_scan_index": 326,
+      "closure_error_m": 2.5769515767397113
+    },
+    {
+      "loop_number": 2,
+      "requested_scan_index": 649,
+      "matched_processed_scan_index": 649,
+      "closure_error_m": 3.6687636241136294
+    }
+  ],
+  "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3b/voxel_grid/indoor_small_01/voxel_grid_0p10m"
+}
