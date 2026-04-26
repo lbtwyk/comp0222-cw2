@@ -1,0 +1,165 @@
+{
+  "sequence": "indoor_small_01",
+  "label": "Marshgate small-room",
+  "config": {
+    "max_range_mm": 12000.0,
+    "beam_step": 3,
+    "voxel_size_m": 0.05,
+    "scan_stride": 2,
+    "occupancy_cell_size_m": 0.05,
+    "occupancy_padding_m": 2.0,
+    "icp_max_iter": 20,
+    "correspondence_thresh_m": 0.5,
+    "keyframe_dist_thresh_m": 0.2,
+    "keyframe_angle_thresh_rad": 0.2,
+    "local_map_size": 20
+  },
+  "candidate_pool_count": 4,
+  "eligible_candidate_count": 4,
+  "pool_metadata": {
+    "keyframe_count": 86,
+    "min_keyframe_gap": 20,
+    "long_baseline_gap": 21,
+    "selection_rules": {
+      "touches_start_fraction": 0.2,
+      "touches_end_fraction": 0.7,
+      "non_overlap_window": 15
+    },
+    "local_thresholds": {
+      "score": 0.4,
+      "translation_correction_m": 1.0,
+      "rotation_correction_rad": 0.45
+    },
+    "anchor_thresholds": {
+      "score": 0.5,
+      "translation_correction_m": 1.2,
+      "rotation_correction_rad": 0.6
+    }
+  },
+  "variants": [
+    {
+      "variant_name": "odom_only",
+      "loop_edge_ids": [],
+      "loop_edge_count": 0,
+      "odometry_only": true,
+      "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/indoor_small_01/variants/odom_only"
+    },
+    {
+      "variant_name": "anchor_only",
+      "loop_edge_ids": [
+        3
+      ],
+      "loop_edge_count": 1,
+      "odometry_only": false,
+      "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/indoor_small_01/variants/anchor_only"
+    }
+  ],
+  "candidates": [
+    {
+      "accepted_loop_id": 3,
+      "branch_type": "anchor",
+      "source_keyframe_id": 85,
+      "target_keyframe_id": 2,
+      "source_scan_index": 636,
+      "target_scan_index": 20,
+      "score": 0.9689034267476063,
+      "inlier_ratio": 1.0,
+      "translation_correction_m": 0.07675254778622466,
+      "rotation_correction_rad": 0.05207610087332013,
+      "descriptor_error": 0.07181336805555556,
+      "descriptor_shift_rad": 0.0,
+      "source_fraction": 1.0,
+      "target_fraction": 0.023529411764705882,
+      "keyframe_gap": 83,
+      "path_gap_m": 21.008281696018905,
+      "touches_start": true,
+      "touches_end": true,
+      "is_long_baseline": true,
+      "anchor_rank": 1.4641975443946653,
+      "eligible": true,
+      "rejection_reasons": [],
+      "used_in_variants": [
+        "anchor_only"
+      ],
+      "selection_note": "exported_to_variants"
+    },
+    {
+      "accepted_loop_id": 0,
+      "branch_type": "anchor",
+      "source_keyframe_id": 60,
+      "target_keyframe_id": 17,
+      "source_scan_index": 448,
+      "target_scan_index": 130,
+      "score": 0.9692526371163022,
+      "inlier_ratio": 1.0,
+      "translation_correction_m": 0.1777467671503026,
+      "rotation_correction_rad": 0.0016368969409628043,
+      "descriptor_error": 0.10145804398148149,
+      "descriptor_shift_rad": 0.0,
+      "source_fraction": 0.7058823529411765,
+      "target_fraction": 0.2,
+      "keyframe_gap": 43,
+      "path_gap_m": 10.764378574108079,
+      "touches_start": true,
+      "touches_end": true,
+      "is_long_baseline": true,
+      "anchor_rank": 1.3704291077045374,
+      "eligible": true,
+      "rejection_reasons": [],
+      "used_in_variants": [],
+      "selection_note": "eligible_but_not_selected_by_variant_builder"
+    },
+    {
+      "accepted_loop_id": 2,
+      "branch_type": "anchor",
+      "source_keyframe_id": 76,
+      "target_keyframe_id": 12,
+      "source_scan_index": 554,
+      "target_scan_index": 96,
+      "score": 0.7108586466707216,
+      "inlier_ratio": 0.8543689320388349,
+      "translation_correction_m": 0.367306919465374,
+      "rotation_correction_rad": 0.1973827205230817,
+      "descriptor_error": 0.07181047453703704,
+      "descriptor_shift_rad": 0.0,
+      "source_fraction": 0.8941176470588236,
+      "target_fraction": 0.1411764705882353,
+      "keyframe_gap": 64,
+      "path_gap_m": 15.538568575549583,
+      "touches_start": true,
+      "touches_end": true,
+      "is_long_baseline": true,
+      "anchor_rank": 1.1614468819648394,
+      "eligible": true,
+      "rejection_reasons": [],
+      "used_in_variants": [],
+      "selection_note": "eligible_but_not_selected_by_variant_builder"
+    },
+    {
+      "accepted_loop_id": 1,
+      "branch_type": "anchor",
+      "source_keyframe_id": 67,
+      "target_keyframe_id": 3,
+      "source_scan_index": 494,
+      "target_scan_index": 28,
+      "score": 0.7070883523533354,
+      "inlier_ratio": 0.8125,
+      "translation_correction_m": 0.1858776781556264,
+      "rotation_correction_rad": 0.008591693486395963,
+      "descriptor_error": 0.16045688657407406,
+      "descriptor_shift_rad": 0.08726646259971647,
+      "source_fraction": 0.788235294117647,
+      "target_fraction": 0.03529411764705882,
+      "keyframe_gap": 64,
+      "path_gap_m": 15.412824093203486,
+      "touches_start": true,
+      "touches_end": true,
+      "is_long_baseline": true,
+      "anchor_rank": 1.157676587647453,
+      "eligible": true,
+      "rejection_reasons": [],
+      "used_in_variants": [],
+      "selection_note": "eligible_but_not_selected_by_variant_builder"
+    }
+  ]
+}

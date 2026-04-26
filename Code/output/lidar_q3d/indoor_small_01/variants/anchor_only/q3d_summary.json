@@ -1,0 +1,47 @@
+{
+  "sequence": "indoor_small_01",
+  "label": "Marshgate small-room",
+  "variant_name": "anchor_only",
+  "config": {
+    "max_range_mm": 12000.0,
+    "beam_step": 3,
+    "voxel_size_m": 0.05,
+    "scan_stride": 2,
+    "occupancy_cell_size_m": 0.05,
+    "occupancy_padding_m": 2.0,
+    "icp_max_iter": 20,
+    "correspondence_thresh_m": 0.5,
+    "keyframe_dist_thresh_m": 0.2,
+    "keyframe_angle_thresh_rad": 0.2,
+    "local_map_size": 20
+  },
+  "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/indoor_small_01/variants/anchor_only",
+  "graph_input_path": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/indoor_small_01/variants/anchor_only/graph_input.mat",
+  "graph_optimized_path": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/indoor_small_01/variants/anchor_only/graph_optimized.mat",
+  "processed_scan_count": 330,
+  "keyframe_count": 86,
+  "loop_edge_count": 1,
+  "loop_edge_ids_used": [
+    3
+  ],
+  "odometry_only": false,
+  "total_distance_before_m": 21.660610145554045,
+  "total_distance_after_m": 21.632360432886998,
+  "total_distance_change_abs_m": 0.02824971266704779,
+  "closure_error_before_m": 2.394734684286709,
+  "closure_error_after_m": 0.5463327609361426,
+  "closure_error_improvement_m": 1.8484019233505666,
+  "optimization_meta": {
+    "sequence_name": "indoor_small_01",
+    "sequence_label": "Marshgate small-room",
+    "chi2_initial": 664.6178991084696,
+    "chi2_final": 13.617534867665555,
+    "iterations": 16.0
+  },
+  "mean_keyframe_translation_correction_m": 2.6212244494625887,
+  "max_keyframe_translation_correction_m": 3.605765495955527,
+  "mean_keyframe_translation_step_m": 0.08203349311323568,
+  "mean_keyframe_rotation_step_rad": 0.02921389756613585,
+  "deformation_score": 4.401428549716099,
+  "note": "Pose-graph optimization used filtered automatic Q3c loop edges only."
+}

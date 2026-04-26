@@ -1,0 +1,59 @@
+[
+  {
+    "accepted_loop_id": 3,
+    "from_keyframe_id": 2,
+    "to_keyframe_id": 85,
+    "from_row": 3,
+    "to_row": 86,
+    "measurement_xytheta": [
+      0.030655873197561766,
+      0.13658051711073999,
+      -0.05207610087332013
+    ],
+    "information": [
+      [
+        40.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        40.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        80.0
+      ]
+    ],
+    "score": 0.9689034267476063,
+    "mean_residual_m": 0.02081751343010521,
+    "inlier_ratio": 1.0,
+    "translation_correction_m": 0.07675254778622466,
+    "rotation_correction_rad": 0.05207610087332013,
+    "branch_type": "anchor",
+    "descriptor_error": 0.07181336805555556,
+    "descriptor_shift_rad": 0.0,
+    "source_keyframe_id": 85,
+    "target_keyframe_id": 2,
+    "source_scan_index": 636,
+    "target_scan_index": 20,
+    "source_timestamp": 1774265825.154462,
+    "target_timestamp": 1774265768.386976,
+    "source_fraction": 1.0,
+    "target_fraction": 0.023529411764705882,
+    "keyframe_gap": 83,
+    "path_gap_m": 21.008281696018905,
+    "touches_start": true,
+    "touches_end": true,
+    "is_long_baseline": true,
+    "anchor_rank": 1.4641975443946653,
+    "eligible": true,
+    "rejection_reasons": [],
+    "used_in_variants": [
+      "anchor_only"
+    ],
+    "selection_note": "exported_to_variants"
+  }
+]

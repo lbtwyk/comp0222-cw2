@@ -1,0 +1,18 @@
+{
+  "sequence": "indoor_small_01",
+  "label": "Marshgate small-room",
+  "selected_variant": "anchor_only",
+  "selection_reason": "anchor_only was selected because it was within 0.02 m of the best closure result and had the lowest deformation score, favoring smaller and smoother keyframe corrections.",
+  "variant_count_evaluated": 2,
+  "loop_edge_ids_used": [
+    3
+  ],
+  "chosen_metrics": {
+    "closure_error_before_m": 2.394734684286709,
+    "closure_error_after_m": 0.5463327609361426,
+    "closure_error_improvement_m": 1.8484019233505666,
+    "total_distance_change_abs_m": 0.02824971266704779,
+    "loop_edge_count": 1,
+    "deformation_score": 4.401428549716099
+  }
+}
