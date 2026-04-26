@@ -1,0 +1,28 @@
+{
+  "name": "indoor_large_01",
+  "environment": "indoor",
+  "description": "Marshgate hallways",
+  "sensor": "RP-Lidar A2M12",
+  "port": "/dev/tty.usbserial-10",
+  "baud_rate": 256000,
+  "scan_count": 3166,
+  "duration_seconds": 249.2,
+  "avg_scan_rate_hz": 12.7,
+  "loops_marked": 2,
+  "loop_markers": [
+    {
+      "scan_index": 1666,
+      "timestamp": 1773836026.660704,
+      "elapsed_seconds": 133.34074997901917,
+      "loop_number": 1
+    },
+    {
+      "scan_index": 3143,
+      "timestamp": 1773836142.2789,
+      "elapsed_seconds": 248.95894598960876,
+      "loop_number": 2
+    }
+  ],
+  "timestamp_start": 1773835894.8745532,
+  "timestamp_end": 1773836144.0711129
+}
