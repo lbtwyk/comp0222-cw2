@@ -1,0 +1,19 @@
+{
+  "sequence": "outdoor_02",
+  "label": "Building exterior",
+  "selected_variant": "anchor_plus_support",
+  "selection_reason": "anchor_plus_support was selected because it was within 0.02 m of the best closure result and had the lowest deformation score, favoring smaller and smoother keyframe corrections.",
+  "variant_count_evaluated": 3,
+  "loop_edge_ids_used": [
+    8,
+    7
+  ],
+  "chosen_metrics": {
+    "closure_error_before_m": 2.8200663525080993,
+    "closure_error_after_m": 0.8174595048332415,
+    "closure_error_improvement_m": 2.002606847674858,
+    "total_distance_change_abs_m": 0.8976699160734256,
+    "loop_edge_count": 2,
+    "deformation_score": 4.0418575614675065
+  }
+}

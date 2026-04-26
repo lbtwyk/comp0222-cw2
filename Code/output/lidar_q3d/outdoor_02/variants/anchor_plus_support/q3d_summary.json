@@ -1,0 +1,48 @@
+{
+  "sequence": "outdoor_02",
+  "label": "Building exterior",
+  "variant_name": "anchor_plus_support",
+  "config": {
+    "max_range_mm": 6000.0,
+    "beam_step": 1,
+    "voxel_size_m": 0.05,
+    "scan_stride": 2,
+    "occupancy_cell_size_m": 0.05,
+    "occupancy_padding_m": 2.0,
+    "icp_max_iter": 20,
+    "correspondence_thresh_m": 0.5,
+    "keyframe_dist_thresh_m": 0.2,
+    "keyframe_angle_thresh_rad": 0.2,
+    "local_map_size": 20
+  },
+  "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/outdoor_02/variants/anchor_plus_support",
+  "graph_input_path": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/outdoor_02/variants/anchor_plus_support/graph_input.mat",
+  "graph_optimized_path": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/outdoor_02/variants/anchor_plus_support/graph_optimized.mat",
+  "processed_scan_count": 2398,
+  "keyframe_count": 355,
+  "loop_edge_count": 2,
+  "loop_edge_ids_used": [
+    8,
+    7
+  ],
+  "odometry_only": false,
+  "total_distance_before_m": 173.29084007643877,
+  "total_distance_after_m": 172.39317016036534,
+  "total_distance_change_abs_m": 0.8976699160734256,
+  "closure_error_before_m": 2.8200663525080993,
+  "closure_error_after_m": 0.8174595048332415,
+  "closure_error_improvement_m": 2.002606847674858,
+  "optimization_meta": {
+    "sequence_name": "outdoor_02",
+    "sequence_label": "Building exterior",
+    "chi2_initial": 1424.904931311105,
+    "chi2_final": 42.492611051541765,
+    "iterations": 51.0
+  },
+  "mean_keyframe_translation_correction_m": 2.262610665605365,
+  "max_keyframe_translation_correction_m": 4.153332905357373,
+  "mean_keyframe_translation_step_m": 0.07209089734774825,
+  "mean_keyframe_rotation_step_rad": 0.010002348022657702,
+  "deformation_score": 4.0418575614675065,
+  "note": "Pose-graph optimization used filtered automatic Q3c loop edges only."
+}

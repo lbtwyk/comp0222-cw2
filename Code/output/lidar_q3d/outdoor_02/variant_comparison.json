@@ -1,0 +1,53 @@
+[
+  {
+    "variant_name": "odom_only",
+    "selected": false,
+    "loop_edge_count": 0,
+    "loop_edge_ids_used": "",
+    "odometry_only": true,
+    "closure_error_before_m": 2.820066,
+    "closure_error_after_m": 2.820066,
+    "closure_error_improvement_m": 0.0,
+    "total_distance_change_abs_m": 0.0,
+    "mean_keyframe_translation_correction_m": 0.0,
+    "max_keyframe_translation_correction_m": 0.0,
+    "mean_keyframe_translation_step_m": 0.0,
+    "mean_keyframe_rotation_step_rad": 0.0,
+    "deformation_score": 0.0,
+    "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/outdoor_02/variants/odom_only"
+  },
+  {
+    "variant_name": "anchor_plus_support",
+    "selected": true,
+    "loop_edge_count": 2,
+    "loop_edge_ids_used": "8,7",
+    "odometry_only": false,
+    "closure_error_before_m": 2.820066,
+    "closure_error_after_m": 0.81746,
+    "closure_error_improvement_m": 2.002607,
+    "total_distance_change_abs_m": 0.89767,
+    "mean_keyframe_translation_correction_m": 2.262611,
+    "max_keyframe_translation_correction_m": 4.153333,
+    "mean_keyframe_translation_step_m": 0.072091,
+    "mean_keyframe_rotation_step_rad": 0.010002,
+    "deformation_score": 4.041858,
+    "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/outdoor_02/variants/anchor_plus_support"
+  },
+  {
+    "variant_name": "anchor_only",
+    "selected": false,
+    "loop_edge_count": 1,
+    "loop_edge_ids_used": "8",
+    "odometry_only": false,
+    "closure_error_before_m": 2.820066,
+    "closure_error_after_m": 0.817835,
+    "closure_error_improvement_m": 2.002231,
+    "total_distance_change_abs_m": 0.192317,
+    "mean_keyframe_translation_correction_m": 3.263109,
+    "max_keyframe_translation_correction_m": 6.783174,
+    "mean_keyframe_translation_step_m": 0.050506,
+    "mean_keyframe_rotation_step_rad": 0.004781,
+    "deformation_score": 5.473524,
+    "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/outdoor_02/variants/anchor_only"
+  }
+]

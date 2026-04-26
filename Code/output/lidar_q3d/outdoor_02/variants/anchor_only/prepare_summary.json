@@ -1,0 +1,30 @@
+{
+  "sequence": "outdoor_02",
+  "label": "Building exterior",
+  "variant_name": "anchor_only",
+  "config": {
+    "max_range_mm": 6000.0,
+    "beam_step": 1,
+    "voxel_size_m": 0.05,
+    "scan_stride": 2,
+    "occupancy_cell_size_m": 0.05,
+    "occupancy_padding_m": 2.0,
+    "icp_max_iter": 20,
+    "correspondence_thresh_m": 0.5,
+    "keyframe_dist_thresh_m": 0.2,
+    "keyframe_angle_thresh_rad": 0.2,
+    "local_map_size": 20
+  },
+  "environment": "outdoor",
+  "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/outdoor_02/variants/anchor_only",
+  "graph_input_path": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3d/outdoor_02/variants/anchor_only/graph_input.mat",
+  "keyframe_count": 355,
+  "processed_scan_count": 2398,
+  "odometry_edge_count": 354,
+  "loop_edge_count": 1,
+  "odometry_only": false,
+  "loop_edge_ids": [
+    8
+  ],
+  "q3c_source_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3c/outdoor_02"
+}
