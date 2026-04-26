@@ -1,0 +1,90 @@
+{
+  "sequence": "indoor_large_03",
+  "label": "Marshgate large-classroom",
+  "sequence_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/data/lidar/indoor_large_03",
+  "source_metadata": {
+    "name": "indoor_large_03",
+    "environment": "indoor",
+    "description": "Marshgate large-classroom",
+    "sensor": "RP-Lidar A2M12",
+    "port": "/dev/tty.usbserial-10",
+    "baud_rate": 256000,
+    "scan_count": 1234,
+    "duration_seconds": 96.9,
+    "avg_scan_rate_hz": 12.73,
+    "timestamp_start": 1773837359.7907772,
+    "timestamp_end": 1773837456.693815
+  },
+  "config": {
+    "max_range_mm": 12000.0,
+    "beam_step": 2,
+    "voxel_size_m": 0.05,
+    "scan_stride": 3,
+    "occupancy_cell_size_m": 0.05,
+    "occupancy_padding_m": 2.0,
+    "icp_max_iter": 20,
+    "correspondence_thresh_m": 0.5,
+    "keyframe_dist_thresh_m": 0.2,
+    "keyframe_angle_thresh_rad": 0.2,
+    "local_map_size": 20
+  },
+  "detection_preprocess": {
+    "max_range_mm": 12000.0,
+    "beam_step": 1,
+    "max_range_m": 12.0
+  },
+  "output_dir": "/Users/lambertwang/Downloads/COMP0222_25-26/Courseworks/Coursework_02_-_Visual_and_Lidar_SLAM/Code/output/lidar_q3c/indoor_large_03",
+  "processed_scan_count": 412,
+  "keyframe_count": 184,
+  "total_distance_m": 51.936,
+  "final_start_to_end_drift_m": 2.443,
+  "total_candidates_evaluated": 725,
+  "accepted_loops_before_dedup": 44,
+  "accepted_loops_after_dedup": 7,
+  "accepted_anchor_loops": 4,
+  "accepted_local_loops": 3,
+  "late_to_early_candidates_evaluated": 275,
+  "late_to_early_candidates_accepted": 4,
+  "accepted_loop_ids_for_q3d": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "marker_matches": [
+    {
+      "loop_number": 1,
+      "marker_timestamp": 1773837411.0826979,
+      "hit": true,
+      "matched_loop_id": 0,
+      "time_delta_s": 6.046,
+      "score": 0.554289,
+      "branch_type": "local",
+      "source_keyframe_id": 105,
+      "target_keyframe_id": 12
+    },
+    {
+      "loop_number": 2,
+      "marker_timestamp": 1773837455.367456,
+      "hit": true,
+      "matched_loop_id": 6,
+      "time_delta_s": -0.082,
+      "score": 0.97442,
+      "branch_type": "anchor",
+      "source_keyframe_id": 183,
+      "target_keyframe_id": 7
+    }
+  ],
+  "marker_hits": 2,
+  "marker_misses": 0,
+  "extra_accepted_revisits": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}
